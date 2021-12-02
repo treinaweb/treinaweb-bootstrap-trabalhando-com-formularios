@@ -10,11 +10,21 @@
 </head>
 <body>
     <div class="col-6 mx-auto">
-        <div>
+        <div class="mb-3">
             <label for="inputEmail" class="form-label">Email</label>
             <input id="inputEmail"  type="email" class="form-control" placeholder="exemplo@exemplo.com">
         </div>
-
+        <div class="mb-3">
+            <label for="inputTel" class="form-label">Telefone</label>
+            <input id="inputTel"  type="tel" class="form-control form-control-sm" placeholder="(99)99999-9999">
+        </div>
+        <div class="mb-3">
+            <label for="inputSenha" class="form-label">Senha</label>
+            <input id="inputSenha"  type="password" class="form-control form-control-lg" aria-desbribedby="passwordText">
+            <div id="passwordText" class="form-text">
+                Sua senha deve conter no mínimo 10 caracteres
+            </div>
+        </div>
 
     </div>
 
